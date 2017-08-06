@@ -108,6 +108,13 @@ cd AIND-CV-FacialKeypoints
 ```shell
 jupyter notebook CV_project.ipynb
 ```
+If got the error "No module named ‘cv2’", it means you are using the global Jupyter module, instead of the one inside the conda environment. To fix this, install jupyter again within the conda environment, and then re-activate the conda environment. 
+Ref: https://discussions.udacity.com/t/capstone-project-modulenotfounderror-no-module-named-keras-under-jupyter/294432/5
+```shell
+conda install jupyter
+source deactivate
+source activate aind-cv
+```
 
 __NOTE:__ While some code has already been implemented to get you started, you will need to implement additional functionality to successfully answer all of the questions included in the notebook. __Unless requested, do not modify code that has already been included.__
 
