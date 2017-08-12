@@ -34,7 +34,7 @@ cd AIND-CV-FacialKeypoints
 
 	- __Linux__ or __Mac__: 
 	```
-	conda create --name aind-cv python=3.5 numpy
+	conda create --name aind-cv python=3.5 numpy pandas scikit-learn h5py jupyter nb_conda
 	source activate aind-cv
 	```
 	- __Windows__: 
